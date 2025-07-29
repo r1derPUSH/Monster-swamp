@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gas"></div>
+    <div class="gas"></div>
+
+    <main class="main">
+        <div class="start-menu">
+            <p class="titleOfMenu">Monster Hunt 🔪</p>
+            <p class="rules">Rules:</p>
+            <p class="rules-text">Shoot at monsters to avoid capturing your island! </p>
+            <button onclick="start()" class="start-button">Start 🔫</button>
+        </div>
+        <div><p class="threeTwoOneGo"></p></div>
+        <div class="containerOfBlocks">
+            <div class="infoText">
+                <p class="level">Level </p>
+                <p class="score">Score: 0</p>
+                <p class="typewriter"></p>
+            </div>
+            <div class="firstRow">
+                <div class="wrapper">
+                    <div class="hpBar"><div class="hpBarInside"></div></div>
+                </div>
+                <div class="wrapper2">
+                <div class="hpBarMedium">
+                    <div class="hpBarInsideMedium"></div>
+                </div>
+                </div>
+                <div class="wrapper3">
+                <div class="hpBarHard">
+                    <div class="hpBarInsideHard"></div>
+                </div>
+                </div>
+                <div id="sq" class="sq1"><img draggable="false" onclick="easyAttack()" class="monsterEasy" src="MonsterEasy.png" alt=""></div>
+                <div id="sq" class="sq2"><img draggable="false" onclick="mediumAttack()" class="monsterMedium" src="MonsterMedium.png" alt=""></div>
+                <div id="sq" class="sq3"><img draggable="false" onclick="hardAttack()" class="monsterHard" src="MonsterHard.png" alt=""></div>
+                <div id="sq" class="sq4"></div>
+                <div id="sq" class="sq5"></div>
+                <div id="sq" class="sq6"></div>
+            </div>
+            <div class="secondRow">
+                <div id="sq" class="sq7"></div>
+                <div id="sq" class="sq8"></div>
+                <div id="sq" class="sq9"></div>
+                <div id="sq" class="sq10"></div>
+                <div id="sq" class="sq11"></div>
+                <div id="sq" class="sq12"></div>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
