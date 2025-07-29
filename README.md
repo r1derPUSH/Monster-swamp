@@ -18,3 +18,5 @@
 - HTML5 + CSS3  
 - JavaScript (Vanilla)
 - Анімації та таймери
+
+game is in beta-test, not finished yet
